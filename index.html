@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+    <title>Lingo</title>
+    <style>
+        .blok input{
+            font-size:40px;
+            width: 100px;
+            height: 50px;
+        }
+        @media (max-width: 625px) {
+
+            .blok input{
+                font-size:30px;
+                width: 80px;
+                height: 40px;
+            }
+
+        }
+        @media (max-width: 505px) {
+
+            .blok input{
+                font-size:20px;
+                width: 60px;
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="lingo row text-center " id="div1">
+        <div class="col-md-12">
+            <h1 class="mt-2">Raad de stad</h1>
+
+        </div>
+        <div class="col-md-12 blok">
+            <input type="text" id="1"   size="1" maxlength="1" >
+            <input type="text" id="2"   size="1" maxlength="1" >
+            <input type="text" id="3"   size="1" maxlength="1" >
+            <input type="text" id="4"   size="1" maxlength="1" >
+            <input type="text" id="5"   size="1" maxlength="1" >
+            <input type="text" id="6"   size="1" maxlength="1" >
+        </div>
+        <div class="col-md-12 blok">
+            <input type="text" id="7"   size="1" maxlength="1" >
+            <input type="text" id="8"   size="1" maxlength="1" >
+            <input type="text" id="9"   size="1" maxlength="1" >
+            <input type="text" id="10"  size="1" maxlength="1" >
+            <input type="text" id="11"  size="1" maxlength="1" >
+            <input type="text" id="12"  size="1" maxlength="1" >
+        </div>
+        <div class="col-md-12 blok">
+            <input type="text" id="13"   size="1" maxlength="1" >
+            <input type="text" id="14"   size="1" maxlength="1" >
+            <input type="text" id="15"   size="1" maxlength="1" >
+            <input type="text" id="16"   size="1" maxlength="1" >
+            <input type="text" id="17"   size="1" maxlength="1" >
+            <input type="text" id="18"   size="1" maxlength="1" >
+        </div>
+        <div class="col-md-12 blok">
+            <input type="text" id="19"   size="1" maxlength="1" >
+            <input type="text" id="20"   size="1" maxlength="1" >
+            <input type="text" id="21"   size="1" maxlength="1" >
+            <input type="text" id="22"   size="1" maxlength="1" >
+            <input type="text" id="23"   size="1" maxlength="1" >
+            <input type="text" id="24"   size="1" maxlength="1" >
+        </div>
+        <div class="col-md-12 px-2 py-2">
+            <input class="btn btn-success" type="button" value="Check Rij" onclick="myClickHandler()">
+            <input class="btn btn-danger" type="button" value="Reset" onClick="window.location.reload()">
+        </div>
+    </div>
+    <script src="lingo.js"></script>
+    <script>
+        document.getElementById("datum").innerHTML = (formatDate(new Date()));
+    </script>
+</body>
+</html>
